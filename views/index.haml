@@ -8,7 +8,7 @@
 
   %body
     #impress
-      #first.step.slide(data-x="-1000" data-y="2000")
+      #first.step.slide(data-x="0" data-y="0")
         %q Controlling the
         %h1
           real world
@@ -17,59 +17,59 @@
           %sup *
           or maybe just an excuse to use the soldering iron
 
-      #second.step.slide(data-x="0" data-y="2000")
+      #second.step.slide(data-x="0" data-y="1000")
         %q Have you ever wanted to
         %ul
           %li remotely start your coffee maker
-          %li control your lights from the office
-          %li track your fish tank
+          %li control your lights from somewhere else
+          %li monitor and feed your fish tank
           %li automatically water your plants
 
-      #third.step(data-x="1000" data-y="2000" data-rotate="90")
+      #third.step(data-x="850" data-y="700" data-rotate="90" data-scale="2")
         %q Oh, maybe you wanted to do something cool?
 
-      #fourth.step(data-x="1000" data-y="1000" data-rotate="90")
+      #fourth.step(data-x="-1100" data-y="1000" data-rotate="180")
         %p You could build your own instruments
         &mdash;
         %p Or make a Daft Punk helmet
         &mdash;
-        %p Even trigger sound effects around your house
+        %p Sensors to trigger MIDI signals
 
-      #fifth.step.slide(data-x="1000" data-y="0")
-        %q I decided to annoy and shame my coworkers
+      #fifth.step(data-x="-1100" data-y="0")
+        %q I decided to <b>annoy</b> and <b>shame</b> my coworkers
         .footnote
-          (surely this will backfire on me)
+          (I'm sure I'll regret this)
 
-      #sixth.step(data-x="-200" data-y="-500")
-        Say hello to the
-        %h1 Arduino
+      -# #sixth.step(data-x="-200" data-y="-500")
+      -#   Say hello to the
+      -#   %h1 Arduino
 
-      #seventh.step.slide(data-x="-485" data-y="775" data-scale="2")
-        #uno
-          %img{src: '/images/ArduinoUno_R3_Front.jpeg'}
-          $29.95
-        #fio
-          %img{src: '/images/ArduinoFio.jpeg'}
-          $24.95
-        .footnote
-          (available in a number of shapes and sizes)
+      -# #seventh.step.slide(data-x="-485" data-y="775" data-scale="2")
+      -#   #uno
+      -#     %img{src: '/images/ArduinoUno_R3_Front.jpeg'}
+      -#     $29.95
+      -#   #fio
+      -#     %img{src: '/images/ArduinoFio.jpeg'}
+      -#     $24.95
+      -#   .footnote
+      -#     (available in a number of shapes and sizes)
 
-      #eigth.step(data-x="-2000" data-y="1000" data-rotate="90")
-        %p Don't worry, this stuff is easy
-        %p
-          %strong NO
-          degree required
+      -# #eigth.step(data-x="-2000" data-y="1000" data-rotate="90")
+      -#   %p Don't worry, this stuff is easy
+      -#   %p
+      -#     %strong NO
+      -#     degree required
 
-      #ninth.step.slide(data-x="-2000" data-y="2000" data-rotate="90")
-        %q The 3 basic components of the traffic light
-        %ul
-          %li light circuitry
-          %li network adapter
-          %li
-            Arduino control
-            %strong (software)
+      -# #ninth.step.slide(data-x="-2000" data-y="2000" data-rotate="90")
+      -#   %q The 3 basic components of the traffic light
+      -#   %ul
+      -#     %li light circuitry
+      -#     %li network adapter
+      -#     %li
+      -#       Arduino control
+      -#       %strong (software)
 
-      .step(data-x="0" data-y="750" data-scale='5')
+      #overview.step(data-x="0" data-y="750" data-scale='5')
 
     .hint
       %p Use a spacebar or arrow keys to navigate

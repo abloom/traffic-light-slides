@@ -1,0 +1,15 @@
+1. Based on the last meetup it seems a lot of you already know how to
+make digital audio and video. Today I'm going to talk about some simple
+software and inexpensive hardware you can use to interact with the
+physical world.
+
+2. With a basic understanding of electronics and some Googling you'll be
+able to pull off all sorts of projects.
+
+3. Chances are there are probably already products out there to do all
+of these things.
+
+4. If you're going to spend the time to make something, it should be
+fun.
+
+5. Maybe some of us have a different idea of fun?

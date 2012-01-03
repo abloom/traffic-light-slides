@@ -8,8 +8,6 @@
 
   %body
     #impress
-      .step(data-x="0" data-y="750" data-scale='5')
-
       #first.step.slide(data-x="-1000" data-y="2000")
         %q Controlling the
         %h1
@@ -61,5 +59,10 @@
         %p
           %strong NO
           degree required
+
+      .step(data-x="0" data-y="750" data-scale='5')
+
+    .hint
+      %p Use a spacebar or arrow keys to navigate
 
     %script{src: "/js/impress.js", type: 'text/javascript'}

@@ -1,0 +1,65 @@
+!!! 5
+%html
+  %head
+    %title Network Controlled Traffic Lights
+    %link{href: "http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic", rel: "stylesheet"}
+    %link{href: "/css/impress.css", rel: "stylesheet"}
+    %link{href: "/assets/styles.css", rel: "stylesheet"}
+
+  %body
+    #impress
+      .step(data-x="0" data-y="750" data-scale='5')
+
+      #first.step.slide(data-x="-1000" data-y="2000")
+        %q Controlling the
+        %h1
+          real world
+          %sup *
+        .footnote
+          %sup *
+          or maybe just an excuse to use the soldering iron
+
+      #second.step.slide(data-x="0" data-y="2000")
+        %q Have you ever wanted to
+        %ul
+          %li remotely start your coffee maker
+          %li control your lights from the office
+          %li track your fish tank
+          %li automatically water your plants
+
+      #third.step(data-x="1000" data-y="2000" data-rotate="90")
+        %q Oh, maybe you wanted to do something cool?
+
+      #fourth.step(data-x="1000" data-y="1000" data-rotate="90")
+        %p You could build your own instruments
+        &mdash;
+        %p Or make a Daft Punk helmet
+        &mdash;
+        %p Even trigger sound effects around your house
+
+      #fifth.step.slide(data-x="1000" data-y="0")
+        %q I decided to annoy and shame my coworkers
+        .footnote
+          (surely this will backfire on me)
+
+      #sixth.step(data-x="-200" data-y="-500")
+        Say hello to the
+        %h1 Arduino
+
+      #seventh.step.slide(data-x="-485" data-y="775" data-scale="2")
+        #uno
+          %img{src: '/images/ArduinoUno_R3_Front.jpeg'}
+          $29.95
+        #fio
+          %img{src: '/images/ArduinoFio.jpeg'}
+          $24.95
+        .footnote
+          (available in a number of shapes and sizes)
+
+      #eigth.step(data-x="-2000" data-y="1000" data-rotate="90")
+        %p Don't worry, this stuff is easy
+        %p
+          %strong NO
+          degree required
+
+    %script{src: "/js/impress.js", type: 'text/javascript'}

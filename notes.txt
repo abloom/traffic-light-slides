@@ -33,4 +33,7 @@ fun.
 11. All kinds of expansion boards already exist. Motor controls, LCDs,
     network adapters, even wireless mesh network systems.
 
-12. 
+12. In the Arduino world they refer to programs as sketches. They use a
+    simplified version of C++. Here's the bootstrapping code for the
+    traffic light. The network layer adds another hundred or so lines,
+    but could probably be minimized if I wasn't so lazy.

@@ -17,8 +17,8 @@
           %sup *
           or maybe just an excuse to use the soldering iron
 
-      #second.step.slide(data-x="0" data-y="1000")
-        %q Have you ever wanted to
+      #second.step.slide.bullets(data-x="0" data-y="1000")
+        %p Have you ever wanted to
         %ul
           %li remotely start your coffee maker
           %li control your lights from somewhere else
@@ -28,23 +28,24 @@
       #third.step(data-x="850" data-y="700" data-rotate="90" data-scale="2")
         %q Oh, maybe you wanted to do something cool?
 
-      #fourth.step(data-x="-1100" data-y="1000" data-rotate="180")
-        %p You could build your own instruments
-        &mdash;
-        %p Or make a Daft Punk helmet
-        &mdash;
-        %p Use sensors to trigger MIDI signals
+      #fourth.step.slide.bullets(data-x="-1100" data-y="1000" data-rotate="180")
+        %p Instead you could
+        %ul
+          %li build your own instruments
+          %li make a Daft Punk helmet
+          %li use motion sensors to trigger MIDI signals
+          %li make your music respond to the dance floor
 
-      #fifth.step(data-x="-1100" data-y="0")
+      #fifth.step(data-x="-1100" data-y="0" data-rotate="180")
         %q I decided to <b>annoy</b> and <b>shame</b> my coworkers
         .footnote
           (I'm sure I'll regret this)
 
-      #sixth.step(data-x="-1100" data-y="-1500" data-scale="4")
+      #sixth.step(data-x="-1100" data-y="-2000" data-scale="4")
         Say hello to the
         %h1 Arduino
 
-      #seventh.step.slide(data-x="-1100" data-y="-4000" data-scale="2")
+      #seventh.step.slide(data-x="-1100" data-y="-4500" data-scale="2")
         #uno
           %img{src: '/images/ArduinoUno_R3_Front.jpeg'}
           $29.95
@@ -61,8 +62,8 @@
           degree required
         .footnote (trust me)
 
-      #ninth.step.slide(data-x="-4000" data-y="-4000" data-rotate="90")
-        %q The 3 basic components of the traffic light
+      #ninth.step.slide.bullets(data-x="-4500" data-y="-4000" data-rotate="90")
+        %p The 3 basic components of the traffic light
         %ul
           %li light circuitry
           %li network adapter
@@ -70,7 +71,25 @@
             Arduino control
             %strong (software)
 
-      #overview.step(data-x="0" data-y="750" data-scale='15')
+      #tenth.step.slide(data-x="-4500" data-y="-3000" data-rotate="90")
+        %h2 Light Circuitry
+        %p How do you control 120VAC with a device running at 9VDC?
+        .outer
+          .inner
+            %img.symbol{src: '/images/Relaysymbol.jpeg'}
+            %img.relay{src: '/images/relay.jpeg'}
+        %p.subtitle Relays!
+
+      #eleventh.step.slide(data-x="-4500" data-y="-2000" data-rotate="90")
+        %h2 Network Adapter
+        %p Tons of premade modules already exist
+        .outer
+          .inner
+            %img{src: '/images/ArduinoEthernetShield_R3_Front.jpeg'}
+            $45.95
+        %p.subtitle Yes, they stack!
+
+      #overview.step(data-x="-1100" data-y="-2000" data-scale='15')
 
     .hint
       %p Use a spacebar or arrow keys to navigate

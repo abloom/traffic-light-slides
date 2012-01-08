@@ -17,3 +17,20 @@ fun.
 6. Arduino, it's Italian.
 
 7. Two of the dozens of compatible models out there.
+
+8. There's no reason to be scared.
+
+9. Lets talk about the traffic light. There are three basic parts, the
+   light circuitry, the network adapter and the code on the Arduino.
+
+10. LED traffic lights were designed to be drop in replacements for. To
+    keep things simple they have a power supply built in. We could plug
+    these straight into the wall if we wanted.
+
+    When working with a relay a few resistors and a diode are needed to
+    protect the microcontroller, nothing complicated.
+
+11. All kinds of expansion boards already exist. Motor controls, LCDs,
+    network adapters, even wireless mesh network systems.
+
+12. 

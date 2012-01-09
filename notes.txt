@@ -68,3 +68,11 @@
 16. I know a lot of you are musicians so you're probably familiar with MIDI and
     may even own some gear. Check out how simple it is to get an Arduino
     to act as a Controller or Synthesizer!
+
+    The official MIDI library provides read and write functionality as
+    well as a pass thru mode. The possibilities are almost endless.
+
+17. I'd love to help anybody here get started. I've got a decent
+    electronics education and can fake my way through enough of it to
+    hopefully not burn my house down. If you've got any ideas you want
+    to discuss let me know.

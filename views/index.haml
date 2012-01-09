@@ -41,11 +41,11 @@
         .footnote
           (I'm sure I'll regret this)
 
-      #sixth.step(data-x="0" data-y="-1000" data-scale="4")
+      #sixth.step(data-x="0" data-y="-2000" data-scale="4")
         Say hello to the
         %h1 Arduino
 
-      #seventh.step.slide(data-x="-4000" data-y="-1000" data-scale="2")
+      #seventh.step.slide(data-x="-4000" data-y="-2000" data-scale="2")
         #uno
           %img{src: '/images/ArduinoUno_R3_Front.jpeg'}
           $29.95
@@ -55,7 +55,7 @@
         .footnote
           (available in a number of shapes and sizes)
 
-      #eigth.step.slide.bullets(data-x="-4000" data-y="-2500")
+      #eigth.step.slide.bullets(data-x="-4000" data-y="-4000")
         %p The 3 basic components of the traffic light
         %ul
           %li light circuitry
@@ -64,37 +64,87 @@
             Arduino control
             %strong (software)
 
-      #ninth.step(data-x="-2500" data-y="-2500")
+      #ninth.step(data-x="-2500" data-y="-4000")
         %p Don't worry, this stuff is easy
         %p
           %strong NO
           degree required
         .footnote (trust me)
 
+      #tenth.step.slide(data-x="-1000" data-y="-4000")
+        %h2 Light Circuitry
+        %p How do you control 120VAC with a device running at 9VDC?
+        .outer
+          .inner
+            %img.symbol{src: '/images/Relaysymbol.jpeg'}
+            %img.relay{src: '/images/relay.jpeg'}
+        %p.subtitle Relays!
 
-      -##tenth.step.slide(data-x="-4500" data-y="-3000" data-rotate="90")
-        -#%h2 Light Circuitry
-        -#%p How do you control 120VAC with a device running at 9VDC?
-        -#.outer
-          -#.inner
-            -#%img.symbol{src: '/images/Relaysymbol.jpeg'}
-            -#%img.relay{src: '/images/relay.jpeg'}
-        -#%p.subtitle Relays!
+      #eleventh.step.slide(data-x="0" data-y="-4000")
+        %h2 Network Adapter
+        %p Tons of premade modules already exist
+        .outer
+          .inner
+            %img{src: '/images/ArduinoEthernetShield_R3_Front.jpeg'}
+            $45.95
+        %p.subtitle Yes, they stack!
 
-      -##eleventh.step.slide(data-x="-4500" data-y="-2000" data-rotate="90")
-        -#%h2 Network Adapter
-        -#%p Tons of premade modules already exist
-        -#.outer
-          -#.inner
-            -#%img{src: '/images/ArduinoEthernetShield_R3_Front.jpeg'}
-            -#$45.95
-        -#%p.subtitle Yes, they stack!
+      #twelfth.step.slide(data-x="1000" data-y="-4000")
+        %h2 The Sketch (code)
+        %script{src: 'https://gist.github.com/8f4f151667e4e7f9e864.js'}
 
-      -##twelfth.step.slide(data-x="-4500" data-y="-1000" data-rotate="90")
-        -#%h2 The Sketch (code)
-        -#%script{src: 'https://gist.github.com/8f4f151667e4e7f9e864.js'}
+      #thirteenth.step.slide(data-x="2000" data-y="-4000")
+        %h2 Serial code is boring.
+        %p Seriously, boring. Check it out on Github.
+        %p
+          %a{href: 'https://github.com/centro/Sir-Shamealot/blob/demo/traffic.pde'}
+            https://github.com/centro/Sir-Shamealot
+          %span (demo branch -- master only has ethernet, no serial due to memory constraints)
+        %p Demos are fun.
 
-      #overview.step(data-x="-1100" data-y="-2000" data-scale='15')
+      #fourteenth.step(data-x="4000" data-y="-3000" data-rotate="90" data-scale="3")
+        %h1 Cool, but what can I do?
+
+      #fifteenth.step.slide.bullets(data-x="4000" data-y="-6000" data-rotate="90")
+        %h2 A few other ways to trigger events
+        %ul
+          %li Processing
+          %li Max/MSP
+          %li Buttons
+          %li Sensors (pressure, temperature, light, audio)
+          %li MIDI (as a controller or an instrument)
+
+      #sixteenth.step.slide(data-x="3000" data-y="-6000")
+        %h3 MIDI, could it be any easier?
+        .outer
+          .inner
+            %img{src: '/images/MIDI_schem.png'}
+
+        %p.subtitle
+          3 wires, 1 resistor and a complete library for reading and writing!
+          %a{href: 'http://arduino.cc/playground/Main/MIDILibrary'} http://arduino.cc/playground/Main/MIDILibrary
+
+      #seventeenth.step.slide.bullets(data-x="2000" data-y="-6000")
+        %h3 Thanks for listening!
+
+        Useful links
+        %ul
+          %li
+            %a{href: 'http://arduino.cc'} http://arduino.cc
+          %li
+            %a{href: 'http://traffic-light-presentation.herokuapp.com'} http://traffic-light-presentation.herokuapp.com
+          %li
+            %a{href: 'http://sparkfun.com'} http://sparkfun.com
+          %li
+            %a{href: 'https://github.com/centro/Sir-Shamealot/'} https://github.com/centro/Sir-Shamealot/
+
+        %p.subtitle
+          You can always find me on twitter
+          %a{href: 'http://twitter.com/andrewbloom'} @andrewbloom
+          or email me at 
+          %a{href: 'mailto:andrew@andrewkbloom.com'} andrew@andrewkbloom.com
+
+      #overview.step(data-x="0" data-y="-2000" data-scale='15')
 
     .hint
       %p Use a spacebar or arrow keys to navigate

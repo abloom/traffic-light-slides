@@ -81,6 +81,15 @@
         %p.subtitle Relays!
 
       #eleventh.step.slide(data-x="0" data-y="-4000")
+        %h2 Relay Schematic
+        .outer
+          .inner
+            %img{src: '/images/relay-schematic.png'}
+
+        %p.subtitle
+          2 resistors, a diode and a transistor
+
+      #twelfth.step.slide(data-x="1000" data-y="-4000")
         %h2 Network Adapter
         %p Tons of premade modules already exist
         .outer
@@ -89,11 +98,11 @@
             $45.95
         %p.subtitle Yes, they stack!
 
-      #twelfth.step.slide(data-x="1000" data-y="-4000")
+      #thirteenth.step.slide(data-x="2000" data-y="-4000")
         %h2 The Sketch (code)
         %script{src: 'https://gist.github.com/8f4f151667e4e7f9e864.js'}
 
-      #thirteenth.step.slide(data-x="2000" data-y="-4000")
+      #fourteenth.step.slide(data-x="3000" data-y="-4000")
         %h2 Serial code is boring.
         %p Seriously, boring. Check it out on Github.
         %p
@@ -102,10 +111,10 @@
           %span (demo branch -- master only has ethernet, no serial due to memory constraints)
         %p Demos are fun.
 
-      #fourteenth.step(data-x="4000" data-y="-3000" data-rotate="90" data-scale="3")
+      #fifteenth.step(data-x="5000" data-y="-3000" data-rotate="90" data-scale="3")
         %h1 Cool, but what can I do?
 
-      #fifteenth.step.slide.bullets(data-x="4000" data-y="-6000" data-rotate="90")
+      #sixteenth.step.slide.bullets(data-x="4000" data-y="-6000" data-rotate="90")
         %h2 A few other ways to trigger events
         %ul
           %li Processing
@@ -114,7 +123,7 @@
           %li Sensors (pressure, temperature, light, audio)
           %li MIDI (as a controller or an instrument)
 
-      #sixteenth.step.slide(data-x="3000" data-y="-6000")
+      #seventeenth.step.slide(data-x="3000" data-y="-6000")
         %h3 MIDI, could it be any easier?
         .outer
           .inner
@@ -124,11 +133,11 @@
           3 wires, 1 resistor and a complete library for reading and writing!
           %a{href: 'http://arduino.cc/playground/Main/MIDILibrary'} http://arduino.cc/playground/Main/MIDILibrary
 
-      #seventeenth.step(data-x="1500" data-y="-6000" data-rotate="270")
+      #eighteenth.step(data-x="1500" data-y="-6000" data-rotate="270")
         %p.one Are the gears turning yet?
         %p.two What could you build?
 
-      #eighteenth.step.slide(data-x="0" data-y="-6000")
+      #nineteenth.step.slide(data-x="0" data-y="-6000")
         %p
           %a{href: "http://vimeo.com/21874758"} MIDI Rainbow Demo
           from
@@ -136,9 +145,17 @@
 
         .outer
           .inner
+            %iframe(src="http://player.vimeo.com/video/21874758?title=0&amp;byline=0&amp;portrait=0" width="400" height="300" frameborder="0")
             %iframe(src="http://player.vimeo.com/video/21874568?title=0&amp;byline=0&amp;portrait=0" width="400" height="300" frameborder="0")
 
-      #nineteenth.step.slide.bullets(data-x="0" data-y="-7000")
+      #twentieth.step(data-x="-1000" data-y="-6000")
+        %h2 One more thing...
+        .outer
+          .inner
+            %q
+              %a{href: 'http://fritzing.org/'} Fritzing!
+
+      #twentyfirst.step.slide.bullets(data-x="-1000" data-y="-7000")
         %h3 Thanks for listening!
 
         Useful links
@@ -158,9 +175,9 @@
           or email me at 
           %a{href: 'mailto:andrew@andrewkbloom.com'} andrew@andrewkbloom.com
 
-      #overview.step(data-x="0" data-y="-2000" data-scale='15')
+      -##overview.step(data-x="0" data-y="-2000" data-scale='15')
 
-    .hint
-      %p Use a spacebar or arrow keys to navigate
+    -#.hint
+      -#%p Use a spacebar or arrow keys to navigate
 
     %script{src: "/js/impress.js", type: 'text/javascript'}

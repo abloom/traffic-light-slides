@@ -11,7 +11,11 @@ get '/assets/:name.css' do
 end
 
 get '/' do
-  haml :index
+  haml :index, layout: false
+end
+
+get '/notes' do
+  markdown :notes, layout_engine: :haml
 end
 
 run Sinatra::Application

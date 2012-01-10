@@ -1,5 +1,5 @@
-0. Good evening everyone. For those of you that don't know me, I'm
-   Andrew Bloom.
+#### Good evening everyone.
+#### For those of you that don't know me, I'm Andrew Bloom.
 
 1. Based on the last meetup it seems a lot of you already know how to
    make digital audio and video. Today I'm going to talk about an electronics
@@ -37,42 +37,42 @@
     do to control the lights is insert a switch into the line. Thats where
     relays come in. They're just voltage controlled switches.
 
-    When working with a relay a few resistors and a diode are needed to
-    protect the microcontroller, nothing complicated. Google it or talk
-    to me after.
+11. When working with a relay a few resistors a transistor and a diode are
+    needed to protect the microcontroller, nothing complicated. Google it or
+    talk to me after.
 
-11. All kinds of expansion boards already exist. Motor controls, LCDs,
+12. All kinds of expansion boards already exist. Motor controls, LCDs,
     network adapters, even wireless mesh network systems.
 
-12. In the Arduino world they refer to programs as sketches. They use a
+13. In the Arduino world they refer to programs as sketches. They use a
     simplified version of C++. Here's the bootstrapping code for the
     traffic light. The bulk of the logic in the program is reading
     messages off the serial port. The animations are all pretty static.
 
-13. No one wants to sit through a lecture on serial code. I'd be happy
+14. No one wants to sit through a lecture on serial code. I'd be happy
     to go over it with any of you after if you're curious to see how I
     attacked it.
 
     Before we proceed, who wants to see a demo?
 
-14. If you're not used to hacking on electronics the Arduino may only
+15. If you're not used to hacking on electronics the Arduino may only
     seem like a novelty, but if you think a little harder I bet you can
     come up with some great ideas.
 
-15. Here are just a few ways you folks might want to interract with an
+16. Here are just a few ways you folks might want to interract with an
     Arduino. Processing and Max/MSP both support serial communication
     similar to what I just demonstrated. Wiring up buttons is straight
     forward, and most sensors are pretty trivial to connect, requiring very
     little extra hardware if any.
 
-16. I know a lot of you are musicians so you're probably familiar with MIDI and
+17. I know a lot of you are musicians so you're probably familiar with MIDI and
     may even own some gear. Check out how simple it is to get an Arduino
     to act as a Controller or Synthesizer!
 
     The official MIDI library provides read and write functionality as
     well as a pass thru mode. The possibilities are almost endless.
 
-17. I'd love to help anybody here get started. I've got a decent
+18. I'd love to help anybody here get started. I've got a decent
     electronics education and can fake my way through enough of it to
     hopefully not burn my house down. If you've got any ideas you want
     to discuss let me know.

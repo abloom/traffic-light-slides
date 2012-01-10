@@ -4,6 +4,7 @@ gem 'sinatra'
 gem 'sass'
 gem 'haml'
 gem 'thin'
+gem 'rdiscount'
 
 group :development do
   gem 'foreman'
